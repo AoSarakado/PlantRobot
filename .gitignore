@@ -1,0 +1,19 @@
+# Generated ESP-IDF and local configuration
+/build/
+/managed_components/
+/sdkconfig
+/sdkconfig.old
+/.cache/
+/.vscode/
+/.clangd
+/include/README
+
+# Third-party ESP-TTS assets are supplied by espressif/esp-sr.
+/components/esp-tts/
+/voice_data/
+
+# Local ASR environment and voice diagnostics
+/server/.venv/
+/server/__pycache__/
+/server/*.wav
+*.pyc

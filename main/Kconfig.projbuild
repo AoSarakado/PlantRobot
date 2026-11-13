@@ -1,0 +1,13 @@
+menu "Plant speech transcription"
+    config PLANT_WIFI_SSID
+        string "Wi-Fi SSID"
+        default ""
+
+    config PLANT_WIFI_PASSWORD
+        string "Wi-Fi password"
+        default ""
+
+    config PLANT_ASR_URL
+        string "Local ASR URL (http://PC_LAN_IP:8765/transcribe)"
+        default ""
+endmenu
